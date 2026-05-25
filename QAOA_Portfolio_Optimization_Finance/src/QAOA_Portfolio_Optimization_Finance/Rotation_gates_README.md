@@ -151,9 +151,8 @@ So it changes *how amplitudes interfere*, not the measurement probabilities dire
 
 ## 8. Physical Intuition
 
-You can think of:
 
-- **Rx and Ry:**
+- **Rx and Ry** can be thought of as:
   - Tilting the state vector
   - Moving population between |0⟩ and |1⟩
 
