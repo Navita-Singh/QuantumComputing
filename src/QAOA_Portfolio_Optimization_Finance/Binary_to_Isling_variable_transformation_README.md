@@ -181,7 +181,7 @@ where $\lambda > 0$ is a penalty strength. After substitution into Ising form, $
 
 **Example — one-hot constraint** (exactly one of $x_1, x_2, x_3$ equals 1):
 
-$$\left(\sum_i x_i - 1\right)^2 = 0 \quad \xrightarrow{\text{Ising}} \quad \frac{\lambda}{2}\left(- \sum_{i} s_i + \sum_{i<j} s_i s_j + \text{const}\right)$$
+$$\left(\sum_i x_i - 1\right)^2 = 0 \quad \overset{\text{Ising}}{\longrightarrow} \quad \frac{\lambda}{2}\left(-\sum_{i} s_i + \sum_{i<j} s_i s_j + \text{const}\right)$$
 
 ---
 
