@@ -169,23 +169,8 @@ $$= (1 - \tfrac{s_1}{2}) + (\tfrac{3}{2} - \tfrac{3s_2}{2}) + (-\tfrac{1}{2} + \
 
 $$H_C = -\tfrac{1}{4}\hat{Z}_1 + \tfrac{1}{2}\hat{Z}_2 + \tfrac{1}{4}\hat{Z}_3 - \hat{Z}_1\hat{Z}_2 + \tfrac{1}{2}\hat{Z}_1\hat{Z}_3$$
 
----
 
-## 8. Handling Constraints via Penalty Terms
-
-Equality constraints $g(x) = 0$ are enforced by adding a penalty to the objective:
-
-$$f(x) \longrightarrow f(x) + \lambda \cdot [g(x)]^2$$
-
-where $\lambda > 0$ is a penalty strength. After substitution into Ising form, $[g(x)]^2$ introduces additional $\hat{Z}_i$ and $\hat{Z}_i \hat{Z}_j$ terms to the Hamiltonian.
-
-**Example — one-hot constraint** (exactly one of $x_1, x_2, x_3$ equals 1):
-
-$$\left(\sum_i x_i - 1\right)^2 = 0 \quad \longrightarrow \quad \frac{\lambda}{2}\left(-\sum_{i} s_i + \sum_{i<j} s_i s_j + \text{const}\right)$$
-
----
-
-## 9. Summary
+## 8. Summary
 
 ```
 Binary variable (classical)        Ising variable (quantum)
